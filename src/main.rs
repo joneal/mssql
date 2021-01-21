@@ -1,7 +1,7 @@
 use odbc_iter::{Odbc};
 
 fn main() {
-    const CONN_STRING: &str = "Driver={SQL Server};Server=devsql.samtec.ad;Database=production;Uid=AwsSgn;Pwd=94B1CC55E12192FF4CBF0129B7E7DC0541F556EE$;";
+    const CONN_STRING: &str = "Driver={SQL Server};Server=****;Database=production;Uid=***;Pwd=******;";
     // Connect to database using connection string
 
     let mut connection = Odbc::connect(&CONN_STRING).expect("failed to connect to DEVSQL");
